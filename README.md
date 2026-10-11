@@ -6,7 +6,7 @@
 
 Render 배포 URL
 
-    https://github.com/2026-2-WebService/assign06-c01-22300644
+    https://assign06-c01-22300644.onrender.com/movies
 
 프로젝트 구조
 
