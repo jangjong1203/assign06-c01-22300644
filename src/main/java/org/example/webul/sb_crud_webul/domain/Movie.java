@@ -2,12 +2,12 @@ package org.example.webul.sb_crud_webul.domain;
 
 
 public class Movie {
-    long Id;
-    String title;
-    String director;
-    String genre;
-    int year;
-    float rating;
+    private long Id;
+    private String title;
+    private String director;
+    private String genre;
+    private int year;
+    private float rating;
 
     public Movie(long id, String title, String director, String genre, int year, float rating) {
         Id = id;

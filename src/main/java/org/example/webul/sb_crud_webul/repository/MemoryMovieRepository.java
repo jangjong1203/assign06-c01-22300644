@@ -8,8 +8,8 @@ import java.util.*;
 
 @Repository
 public class MemoryMovieRepository implements MovieRepository{
-    Map<Long,Movie> store=new LinkedHashMap<>();
-    Long id=0L;
+    private final Map<Long,Movie> store=new LinkedHashMap<>();
+    private Long id=0L;
 
     @Override
     public Movie save(Movie movie) {

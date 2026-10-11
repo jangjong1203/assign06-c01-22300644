@@ -14,5 +14,5 @@ public interface MovieRepository {
      Optional<Movie> findById(long id);
      Movie update(Movie m);
      void deleteById(long m);
-     public List<Movie> ratingCut(float minR);
+     List<Movie> ratingCut(float minR);
 }
