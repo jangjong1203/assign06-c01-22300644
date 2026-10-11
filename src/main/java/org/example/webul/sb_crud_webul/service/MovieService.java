@@ -16,7 +16,7 @@ import java.util.List;
 
 @Service
 public class MovieService {
-        private MovieRepository repository;
+        private final MovieRepository repository;
         public MovieService(MovieRepository repository){
             this.repository=repository;
         }
