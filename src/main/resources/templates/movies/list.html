@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화 목록</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>🎬 영화 관리 목록</h2>
+        <a th:href="@{/movies/new}" class="btn btn-primary">새 영화 등록</a>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-hover align-middle">
+            <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>제목 (Title)</th>
+                <th>감독 (Director)</th>
+                <th>장르 (Genre)</th>
+                <th>개봉연도 (Year)</th>
+                <th>평점 (Rating)</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            <tr th:each="movie : ${movies}">
+                <td th:text="${movie.id}">1</td>
+                <td th:text="${movie.title}">인셉션</td>
+                <td th:text="${movie.director}">크리스토퍼 놀란</td>
+                <td th:text="${movie.genre}">SF</td>
+                <td th:text="${movie.year}">2010</td>
+                <td th:text="${movie.rating}">8.8</td>
+            </tr>
+            <tr th:if="${#lists.isEmpty(movies)}">
+                <td colspan="6" class="text-center text-muted py-4">등록된 영화가 없습니다.</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
