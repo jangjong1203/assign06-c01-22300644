@@ -6,7 +6,7 @@
 
 Render 배포 URL
 
-    https://assign06-c01-22300644.onrender.com/movies
+https://assign06-c01-22300644.onrender.com/movies
 
 프로젝트 구조
 
@@ -38,7 +38,13 @@ Render 배포 URL
 
 데이터 등록
 
-    목록 화면과 등록 화면의 실행 결과 Screenshot을 포함합니다.
+
+<img width="1917" height="911" alt="스크린샷 2026-10-12 001920" src="https://github.com/user-attachments/assets/841bc61f-2d7c-49c6-a3e7-2481d0c29bac" />
+<img width="1917" height="912" alt="스크린샷 2026-10-11 225231" src="https://github.com/user-attachments/assets/e21e3c73-0630-4457-9a34-a49c1255e0f2" />
+<img width="1915" height="907" alt="스크린샷 2026-10-12 001914" src="https://github.com/user-attachments/assets/ce78b3b7-2a59-47a4-924e-c4db7d90782c" />
+<img width="1917" height="1030" alt="스크린샷 2026-10-11 225221" src="https://github.com/user-attachments/assets/e0b830b7-b52e-487c-9c4d-b9bb73dd697d" />
+
+
 
 ② 이번 과제 키워드
 
